@@ -1,0 +1,455 @@
+{
+  "metadata": {
+    "siteName": "Casa Web",
+    "siteDescription": "Digital agency based in Morocco — Web & mobile development, SEO, VPS hosting and more.",
+    "home": {
+      "title": "Casa Web | Digital Agency Morocco",
+      "description": "Digital agency specializing in web development, mobile apps, SEO and VPS hosting in Morocco. Free quote available."
+    },
+    "services": {
+      "title": "Our Services | Casa Web",
+      "description": "Discover our services: web & mobile development, landing pages, SEO, maintenance and VPS hosting. Measurable results, transparent pricing."
+    },
+    "portfolio": {
+      "title": "Portfolio | Casa Web",
+      "description": "Explore our work: business websites, web apps, landing pages and e-commerce projects for Moroccan and international clients."
+    },
+    "pricing": {
+      "title": "Pricing | Casa Web",
+      "description": "Transparent packages in MAD for every budget. Starter, Business or Custom — choose what works for you."
+    },
+    "about": {
+      "title": "About Us | Casa Web",
+      "description": "The Casa Web team: digital enthusiasts committed to delivering quality projects on time."
+    },
+    "blog": {
+      "title": "Blog | Casa Web",
+      "description": "SEO tips, web development and digital strategy for Moroccan businesses."
+    },
+    "contact": {
+      "title": "Contact | Casa Web",
+      "description": "Contact us for a free quote. Form, WhatsApp or email — we respond within 24h."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Free Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "Digital Agency in Morocco 🇲🇦",
+    "title": "Your digital presence,",
+    "titleHighlight": "our expertise.",
+    "subtitle": "We build high-performance websites, custom mobile apps and SEO strategies that turn your visitors into clients.",
+    "cta1": "Get a free quote",
+    "cta2": "See our work",
+    "stats": {
+      "projects": "Projects delivered",
+      "clients": "Happy clients",
+      "experience": "Years of experience",
+      "satisfaction": "Satisfaction rate"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete digital solutions to take your business to the next level",
+    "cta": "Learn more",
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "Business websites, web apps and e-commerce platforms designed to convert. Modern tech, peak performance.",
+        "price": "From 3,000 MAD"
+      },
+      "mobile": {
+        "title": "Mobile App",
+        "description": "Native or cross-platform iOS & Android apps (React Native). From idea to App Store and Google Play deployment.",
+        "price": "From 15,000 MAD"
+      },
+      "landing": {
+        "title": "Landing Pages",
+        "description": "High-converting sales pages delivered in 72h. Copywriting, optimized design and A/B testing included.",
+        "price": "From 1,500 MAD"
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Technical audit, on-page optimization, content strategy and link building to dominate search results.",
+        "price": "From 2,000 MAD/mo"
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "Regular updates, security monitoring, automatic backups and responsive support for your peace of mind.",
+        "price": "From 500 MAD/mo"
+      },
+      "vps": {
+        "title": "VPS Hosting",
+        "description": "VPS server deployment, configuration and monitoring. Ubuntu + Nginx + SSL + backups — we handle everything.",
+        "price": "From 299 MAD/mo"
+      }
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Casa Web?",
+    "subtitle": "We combine technical expertise and deep understanding of the Moroccan market to deliver concrete results.",
+    "items": {
+      "fast": {
+        "title": "Fast Delivery",
+        "description": "100% on-time delivery. We plan precisely and deliver as promised."
+      },
+      "quality": {
+        "title": "Premium Quality",
+        "description": "Clean code, refined design and optimized performance. Every project receives the same attention to detail."
+      },
+      "support": {
+        "title": "Responsive Support",
+        "description": "24h response guaranteed. A dedicated point of contact for every project."
+      },
+      "local": {
+        "title": "Local Expertise",
+        "description": "We understand the Moroccan market: culture, languages, purchasing behaviors. A concrete advantage."
+      },
+      "seo": {
+        "title": "SEO-First",
+        "description": "Every site is built with SEO in mind. Structure, performance and metadata optimized from the start."
+      },
+      "transparent": {
+        "title": "Transparent Pricing",
+        "description": "No surprises. Detailed quotes, clear contracts and real-time project tracking."
+      }
+    }
+  },
+  "process": {
+    "title": "Our Process",
+    "subtitle": "A proven 5-step method to transform your vision into digital reality",
+    "steps": {
+      "discover": {
+        "title": "Discovery",
+        "description": "Analysis of your needs, market and objectives."
+      },
+      "design": {
+        "title": "Design",
+        "description": "UI/UX wireframes validated before development."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Clean, performant and maintainable code with regular reviews."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Secure deployment, quality testing and training included."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Continuous monitoring, updates and evolution according to your needs."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Our Work",
+    "subtitle": "Real projects, measurable results",
+    "viewAll": "View all projects",
+    "viewProject": "View project",
+    "readCaseStudy": "Read case study",
+    "filter": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "landing": "Landing Page",
+      "ecommerce": "E-commerce"
+    },
+    "projects": {
+      "project1": {
+        "title": "Fashion E-commerce Platform",
+        "client": "FashionMa",
+        "category": "ecommerce",
+        "description": "Full e-commerce store with inventory management, online payment (CMI) and admin dashboard.",
+        "result": "+280% online sales in 6 months"
+      },
+      "project2": {
+        "title": "Delivery Mobile App",
+        "client": "DeliveryDZ",
+        "category": "mobile",
+        "description": "On-demand delivery app for iOS and Android with real-time tracking and integrated payment system.",
+        "result": "4.8★ on App Store, 10k+ downloads"
+      },
+      "project3": {
+        "title": "Dental Practice Website",
+        "client": "Dr. Alami",
+        "category": "web",
+        "description": "Professional site with online appointment booking, before/after gallery and integrated patient reviews.",
+        "result": "+150% web consultations"
+      },
+      "project4": {
+        "title": "Real Estate Landing Page",
+        "client": "PrestigImmo",
+        "category": "landing",
+        "description": "High-converting landing page for a luxury residence in Casablanca, with pre-registration form.",
+        "result": "340 qualified leads in 2 weeks"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Our clients' satisfaction is our greatest reward",
+    "items": {
+      "t1": {
+        "name": "Youssef El Mansouri",
+        "role": "CEO, FashionMa",
+        "text": "Casa Web transformed our physical store into an online sales machine. Results far exceeded our expectations. I recommend without hesitation."
+      },
+      "t2": {
+        "name": "Nadia Benchekroun",
+        "role": "Founder, EduTech Morocco",
+        "text": "Professionalism, responsiveness and quality throughout. Our e-learning platform was delivered in 3 weeks with all requested features."
+      },
+      "t3": {
+        "name": "Karim Tazi",
+        "role": "Marketing Director, PrestigImmo",
+        "text": "The landing page generated 340 qualified leads in just 2 weeks. The ROI is exceptional. A team that truly understands business."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to launch your project?",
+    "subtitle": "Let's discuss your vision. Free quote and reply within 24h.",
+    "button1": "Let's discuss your project",
+    "button2": "See our pricing",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Plans adapted to every stage of your growth. No hidden fees.",
+    "billedMonthly": "Monthly",
+    "billedAnnually": "Annual (-20%)",
+    "popular": "Most popular",
+    "cta": "Get started",
+    "ctaCustom": "Contact us",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "3,000",
+        "period": "project",
+        "description": "Ideal for small businesses and professionals starting their online presence.",
+        "features": [
+          "5-page business website",
+          "Responsive design",
+          "Contact form",
+          "Google Maps integration",
+          "Free SSL certificate",
+          "1 year hosting included",
+          "Basic training"
+        ],
+        "notIncluded": [
+          "E-commerce",
+          "Advanced SEO",
+          "Mobile app"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "price": "8,500",
+        "period": "project",
+        "description": "For SMBs who want to stand out and generate qualified leads.",
+        "features": [
+          "Website up to 15 pages",
+          "Custom UI/UX design",
+          "Complete on-page SEO",
+          "Integrated blog (CMS)",
+          "CRM / ERP integration",
+          "Advanced analytics",
+          "Priority support 6 months",
+          "2 revisions included"
+        ],
+        "notIncluded": [
+          "Mobile app",
+          "Ad campaigns"
+        ]
+      },
+      "custom": {
+        "name": "Custom",
+        "price": "On request",
+        "period": "",
+        "description": "Complex projects, custom applications, enterprise solutions.",
+        "features": [
+          "Everything in Business",
+          "Mobile app (iOS/Android)",
+          "Custom architecture",
+          "API & third-party integrations",
+          "Full team training",
+          "12-month dedicated support",
+          "Guaranteed SLA",
+          "Source code delivered"
+        ],
+        "notIncluded": []
+      }
+    }
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Casa Web was born from a conviction: Moroccan businesses deserve world-class digital solutions.",
+    "story": "Founded in Casablanca, Casa Web brings together developers, designers and SEO experts passionate about their craft. Our mission is simple: transform your ideas into digital experiences that generate concrete results. We believe design serves business, and every line of code must have a purpose.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Democratize digital excellence for Moroccan businesses by delivering internationally-standard projects at fair prices."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": {
+        "excellence": "Excellence",
+        "transparency": "Transparency",
+        "innovation": "Innovation",
+        "results": "Results"
+      }
+    },
+    "team": {
+      "title": "The Team",
+      "subtitle": "Passionate experts at your service",
+      "members": {
+        "m1": {
+          "name": "Ahmed Benali",
+          "role": "Founder & Lead Dev",
+          "bio": "10 years of web development experience. Next.js and Node.js specialist."
+        },
+        "m2": {
+          "name": "Salma Idrissi",
+          "role": "Lead Designer",
+          "bio": "UI/UX and brand design expert. Former Publicis."
+        },
+        "m3": {
+          "name": "Omar Hakim",
+          "role": "SEO & Marketing Expert",
+          "bio": "Specialist in organic search and content strategy."
+        },
+        "m4": {
+          "name": "Zineb Mansour",
+          "role": "Mobile Dev",
+          "bio": "React Native developer with 6 apps published on the stores."
+        }
+      }
+    }
+  },
+  "blog": {
+    "title": "The Blog",
+    "subtitle": "Tips, trends and practical guides for your digital strategy",
+    "readMore": "Read more",
+    "publishedOn": "Published on",
+    "by": "by",
+    "backToBlog": "Back to blog",
+    "categories": {
+      "seo": "SEO",
+      "dev": "Development",
+      "marketing": "Marketing",
+      "design": "Design"
+    }
+  },
+  "contact": {
+    "title": "Let's talk about your project",
+    "subtitle": "Fill in the form below or contact us directly. Response guaranteed within 24h.",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+212 6 XX XX XX XX",
+      "service": "Service needed",
+      "servicePlaceholder": "Select a service",
+      "budget": "Approximate budget",
+      "budgetPlaceholder": "Select your budget",
+      "message": "Your message",
+      "messagePlaceholder": "Describe your project in a few lines...",
+      "submit": "Send my request",
+      "sending": "Sending...",
+      "services": {
+        "web": "Web Development",
+        "mobile": "Mobile App",
+        "landing": "Landing Page",
+        "seo": "SEO",
+        "maintenance": "Maintenance",
+        "vps": "VPS Hosting",
+        "other": "Other"
+      },
+      "budgets": {
+        "small": "Less than 5,000 MAD",
+        "medium": "5,000 – 15,000 MAD",
+        "large": "15,000 – 50,000 MAD",
+        "enterprise": "More than 50,000 MAD",
+        "undefined": "To be defined together"
+      }
+    },
+    "success": {
+      "title": "Message sent! 🎉",
+      "message": "Thank you for your request. We'll get back to you within 24 business hours."
+    },
+    "error": {
+      "title": "Sending error",
+      "message": "An error occurred. Please try again or contact us via WhatsApp."
+    },
+    "info": {
+      "title": "Contact information",
+      "email": "contact@casa-web.ma",
+      "phone": "+212 6 00 00 00 00",
+      "location": "Casablanca, Morocco (Remote-first)",
+      "hours": "Mon–Fri, 9am–6pm"
+    },
+    "whatsapp": "Contact on WhatsApp",
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email",
+      "phoneRequired": "Phone is required",
+      "serviceRequired": "Please select a service",
+      "messageRequired": "Message is required",
+      "messageMinLength": "Message must be at least 20 characters"
+    }
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience and analyze our traffic.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn more"
+  },
+  "footer": {
+    "description": "Digital agency based in Casablanca. We transform your ideas into digital success stories.",
+    "links": {
+      "title": "Quick links"
+    },
+    "services": {
+      "title": "Services"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "copyright": "© {year} Casa Web. All rights reserved.",
+    "madeWith": "Made with ❤️ in Casablanca"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "cta": "Back to home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: August 2025"
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: August 2025"
+  },
+  "whatsapp": {
+    "tooltip": "Chat on WhatsApp",
+    "prefilledMessage": "Hello Casa Web! I'd like to discuss a digital project."
+  }
+}

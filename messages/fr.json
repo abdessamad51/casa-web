@@ -1,0 +1,455 @@
+{
+  "metadata": {
+    "siteName": "Casa Web",
+    "siteDescription": "Agence digitale basée au Maroc — Développement web & mobile, SEO, hébergement VPS et bien plus.",
+    "home": {
+      "title": "Casa Web | Agence Digitale Maroc",
+      "description": "Agence digitale spécialisée dans le développement web, mobile, le référencement SEO et l'hébergement VPS au Maroc. Devis gratuit disponible."
+    },
+    "services": {
+      "title": "Nos Services | Casa Web",
+      "description": "Découvrez nos services : développement web & mobile, landing pages, SEO, maintenance et hébergement VPS. Résultats mesurables, prix clairs."
+    },
+    "portfolio": {
+      "title": "Portfolio | Casa Web",
+      "description": "Explorez nos réalisations : sites vitrine, applications web, landing pages et projets e-commerce pour des clients marocains et internationaux."
+    },
+    "pricing": {
+      "title": "Tarifs | Casa Web",
+      "description": "Des forfaits transparents en MAD pour chaque budget. Starter, Business ou Custom — choisissez ce qui vous convient."
+    },
+    "about": {
+      "title": "À Propos | Casa Web",
+      "description": "L'équipe de Casa Web : passionnés du numérique, engagés à livrer des projets de qualité dans les délais."
+    },
+    "blog": {
+      "title": "Blog | Casa Web",
+      "description": "Conseils SEO, développement web et stratégie digitale pour les entreprises marocaines."
+    },
+    "contact": {
+      "title": "Contact | Casa Web",
+      "description": "Contactez-nous pour un devis gratuit. Formulaire, WhatsApp ou email — nous répondons sous 24h."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Tarifs",
+    "about": "À Propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Devis Gratuit",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "badge": "Agence Digitale au Maroc 🇲🇦",
+    "title": "Votre présence digitale,",
+    "titleHighlight": "notre expertise.",
+    "subtitle": "Nous créons des sites web performants, des applications mobiles sur mesure et des stratégies SEO qui transforment vos visiteurs en clients.",
+    "cta1": "Demandez un devis gratuit",
+    "cta2": "Voir nos réalisations",
+    "stats": {
+      "projects": "Projets livrés",
+      "clients": "Clients satisfaits",
+      "experience": "Années d'expérience",
+      "satisfaction": "Taux de satisfaction"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions digitales complètes pour propulser votre business au niveau supérieur",
+    "cta": "En savoir plus",
+    "items": {
+      "web": {
+        "title": "Développement Web",
+        "description": "Sites vitrine, applications web et plateformes e-commerce conçus pour convertir. Technologies modernes, performance optimale.",
+        "price": "À partir de 3 000 MAD"
+      },
+      "mobile": {
+        "title": "Application Mobile",
+        "description": "Apps iOS & Android natives ou cross-platform (React Native). De l'idée au déploiement sur l'App Store et Google Play.",
+        "price": "À partir de 15 000 MAD"
+      },
+      "landing": {
+        "title": "Landing Pages",
+        "description": "Pages de vente à fort taux de conversion livrées en 72h. Copywriting, design optimisé et A/B testing inclus.",
+        "price": "À partir de 1 500 MAD"
+      },
+      "seo": {
+        "title": "Référencement SEO",
+        "description": "Audit technique, optimisation on-page, stratégie de contenu et netlinking pour dominer les résultats de recherche.",
+        "price": "À partir de 2 000 MAD/mois"
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "Mises à jour régulières, surveillance de sécurité, sauvegardes automatiques et support réactif pour votre tranquillité d'esprit.",
+        "price": "À partir de 500 MAD/mois"
+      },
+      "vps": {
+        "title": "Hébergement VPS",
+        "description": "Déploiement, configuration et monitoring de serveurs VPS. Ubuntu + Nginx + SSL + sauvegardes — nous gérons tout.",
+        "price": "À partir de 299 MAD/mois"
+      }
+    }
+  },
+  "whyUs": {
+    "title": "Pourquoi choisir Casa Web ?",
+    "subtitle": "Nous combinons expertise technique et compréhension du marché marocain pour livrer des résultats concrets.",
+    "items": {
+      "fast": {
+        "title": "Livraison Rapide",
+        "description": "Délais respectés à 100%. Nous planifions avec précision et livrons comme promis."
+      },
+      "quality": {
+        "title": "Qualité Premium",
+        "description": "Code propre, design soigné et performances optimisées. Chaque projet est traité avec le même soin."
+      },
+      "support": {
+        "title": "Support Réactif",
+        "description": "Réponse sous 24h garantie. Un interlocuteur dédié pour chaque projet."
+      },
+      "local": {
+        "title": "Expertise Locale",
+        "description": "Nous comprenons le marché marocain : culture, langues, comportements d'achat. Un avantage concret."
+      },
+      "seo": {
+        "title": "SEO-First",
+        "description": "Chaque site est construit avec le SEO en tête. Structure, performances et métadonnées optimisées dès le départ."
+      },
+      "transparent": {
+        "title": "Tarifs Transparents",
+        "description": "Pas de surprises. Devis détaillés, contrats clairs et suivi de projet accessible en temps réel."
+      }
+    }
+  },
+  "process": {
+    "title": "Notre Processus",
+    "subtitle": "Une méthode éprouvée en 5 étapes pour transformer votre vision en réalité digitale",
+    "steps": {
+      "discover": {
+        "title": "Découverte",
+        "description": "Analyse de vos besoins, de votre marché et de vos objectifs."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Maquettes UI/UX validées avant le développement."
+      },
+      "build": {
+        "title": "Développement",
+        "description": "Code propre, performant et maintenable avec des revues régulières."
+      },
+      "launch": {
+        "title": "Lancement",
+        "description": "Déploiement sécurisé, tests qualité et formation incluse."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Suivi continu, mises à jour et évolutions selon vos besoins."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Nos Réalisations",
+    "subtitle": "Des projets concrets, des résultats mesurables",
+    "viewAll": "Voir tous les projets",
+    "viewProject": "Voir le projet",
+    "readCaseStudy": "Lire l'étude de cas",
+    "filter": {
+      "all": "Tous",
+      "web": "Web",
+      "mobile": "Mobile",
+      "landing": "Landing Page",
+      "ecommerce": "E-commerce"
+    },
+    "projects": {
+      "project1": {
+        "title": "Plateforme E-commerce Mode",
+        "client": "FashionMa",
+        "category": "ecommerce",
+        "description": "Boutique en ligne complète avec gestion des stocks, paiement en ligne (CMI) et tableau de bord administrateur.",
+        "result": "+280% de ventes en ligne en 6 mois"
+      },
+      "project2": {
+        "title": "App Mobile Livraison",
+        "client": "DeliveryDZ",
+        "category": "mobile",
+        "description": "Application de livraison à la demande pour iOS et Android avec tracking en temps réel et système de paiement intégré.",
+        "result": "4.8★ sur App Store, 10k+ téléchargements"
+      },
+      "project3": {
+        "title": "Site Vitrine Cabinet Dentaire",
+        "client": "Dr. Alami",
+        "category": "web",
+        "description": "Site professionnel avec prise de rendez-vous en ligne, galerie avant/après et avis patients intégrés.",
+        "result": "+150% de consultations via le web"
+      },
+      "project4": {
+        "title": "Landing Page Promotion Immobilière",
+        "client": "PrestigImmo",
+        "category": "landing",
+        "description": "Landing page à fort taux de conversion pour une résidence de luxe à Casablanca, avec formulaire de pré-inscription.",
+        "result": "340 leads qualifiés en 2 semaines"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "La satisfaction de nos clients est notre meilleure récompense",
+    "items": {
+      "t1": {
+        "name": "Youssef El Mansouri",
+        "role": "CEO, FashionMa",
+        "text": "Casa Web a transformé notre boutique physique en une machine à vendre en ligne. Résultats dépassant largement nos attentes. Je recommande sans hésitation."
+      },
+      "t2": {
+        "name": "Nadia Benchekroun",
+        "role": "Fondatrice, EduTech Maroc",
+        "text": "Professionnalisme, réactivité et qualité au rendez-vous. Notre plateforme e-learning a été livrée en 3 semaines avec toutes les fonctionnalités demandées."
+      },
+      "t3": {
+        "name": "Karim Tazi",
+        "role": "Directeur Marketing, PrestigImmo",
+        "text": "La landing page a généré 340 leads qualifiés en seulement 2 semaines. Le ROI est exceptionnel. Une équipe qui comprend vraiment le business."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à lancer votre projet ?",
+    "subtitle": "Discutons de votre vision. Devis gratuit et réponse sous 24h.",
+    "button1": "Discutons de votre projet",
+    "button2": "Voir nos tarifs",
+    "whatsapp": "Chattez sur WhatsApp"
+  },
+  "pricing": {
+    "title": "Tarifs Transparents",
+    "subtitle": "Des forfaits adaptés à chaque étape de votre croissance. Pas de frais cachés.",
+    "billedMonthly": "Mensuel",
+    "billedAnnually": "Annuel (-20%)",
+    "popular": "Plus populaire",
+    "cta": "Démarrer",
+    "ctaCustom": "Contactez-nous",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "3 000",
+        "period": "projet",
+        "description": "Idéal pour les TPE et professionnels qui débutent leur présence en ligne.",
+        "features": [
+          "Site vitrine 5 pages",
+          "Design responsive",
+          "Formulaire de contact",
+          "Intégration Google Maps",
+          "Certificat SSL gratuit",
+          "Hébergement 1 an inclus",
+          "Formation de base"
+        ],
+        "notIncluded": [
+          "E-commerce",
+          "SEO avancé",
+          "Application mobile"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "price": "8 500",
+        "period": "projet",
+        "description": "Pour les PME qui veulent se démarquer et générer des leads qualifiés.",
+        "features": [
+          "Site web jusqu'à 15 pages",
+          "Design UI/UX sur mesure",
+          "SEO on-page complet",
+          "Blog intégré (CMS)",
+          "Intégration CRM / ERP",
+          "Analytics avancés",
+          "Support prioritaire 6 mois",
+          "2 révisions incluses"
+        ],
+        "notIncluded": [
+          "Application mobile",
+          "Campagnes publicitaires"
+        ]
+      },
+      "custom": {
+        "name": "Custom",
+        "price": "Sur devis",
+        "period": "",
+        "description": "Projets complexes, applications sur mesure, solutions d'entreprise.",
+        "features": [
+          "Tout du plan Business",
+          "Application mobile (iOS/Android)",
+          "Architecture sur mesure",
+          "API & intégrations tierces",
+          "Formation équipe complète",
+          "Support 12 mois dédié",
+          "SLA garanti",
+          "Code source livré"
+        ],
+        "notIncluded": []
+      }
+    }
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "subtitle": "Casa Web est née d'une conviction : les entreprises marocaines méritent des solutions digitales de classe mondiale.",
+    "story": "Fondée à Casablanca, Casa Web regroupe des développeurs, designers et experts SEO passionnés par leur métier. Notre mission est simple : transformer vos idées en expériences digitales qui génèrent des résultats concrets. Nous croyons que le design est au service du business, et que chaque ligne de code doit avoir un objectif.",
+    "mission": {
+      "title": "Notre Mission",
+      "text": "Démocratiser l'excellence digitale pour les entreprises marocaines, en livrant des projets de qualité internationale à des prix justes."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "items": {
+        "excellence": "Excellence",
+        "transparency": "Transparence",
+        "innovation": "Innovation",
+        "results": "Résultats"
+      }
+    },
+    "team": {
+      "title": "L'équipe",
+      "subtitle": "Des experts passionnés à votre service",
+      "members": {
+        "m1": {
+          "name": "Ahmed Benali",
+          "role": "Fondateur & Lead Dev",
+          "bio": "10 ans d'expérience en développement web. Spécialiste Next.js et Node.js."
+        },
+        "m2": {
+          "name": "Salma Idrissi",
+          "role": "Lead Designer",
+          "bio": "Experte en UI/UX et design de marque. Ancienne de Publicis."
+        },
+        "m3": {
+          "name": "Omar Hakim",
+          "role": "Expert SEO & Marketing",
+          "bio": "Spécialiste en référencement naturel et stratégie de contenu."
+        },
+        "m4": {
+          "name": "Zineb Mansour",
+          "role": "Dev Mobile",
+          "bio": "Développeuse React Native avec 6 apps publiées sur les stores."
+        }
+      }
+    }
+  },
+  "blog": {
+    "title": "Le Blog",
+    "subtitle": "Conseils, tendances et guides pratiques pour votre stratégie digitale",
+    "readMore": "Lire la suite",
+    "publishedOn": "Publié le",
+    "by": "par",
+    "backToBlog": "Retour au blog",
+    "categories": {
+      "seo": "SEO",
+      "dev": "Développement",
+      "marketing": "Marketing",
+      "design": "Design"
+    }
+  },
+  "contact": {
+    "title": "Parlons de votre projet",
+    "subtitle": "Remplissez le formulaire ci-dessous ou contactez-nous directement. Réponse garantie sous 24h.",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+212 6 XX XX XX XX",
+      "service": "Service souhaité",
+      "servicePlaceholder": "Sélectionnez un service",
+      "budget": "Budget approximatif",
+      "budgetPlaceholder": "Sélectionnez votre budget",
+      "message": "Votre message",
+      "messagePlaceholder": "Décrivez votre projet en quelques lignes...",
+      "submit": "Envoyer ma demande",
+      "sending": "Envoi en cours...",
+      "services": {
+        "web": "Développement Web",
+        "mobile": "Application Mobile",
+        "landing": "Landing Page",
+        "seo": "Référencement SEO",
+        "maintenance": "Maintenance",
+        "vps": "Hébergement VPS",
+        "other": "Autre"
+      },
+      "budgets": {
+        "small": "Moins de 5 000 MAD",
+        "medium": "5 000 – 15 000 MAD",
+        "large": "15 000 – 50 000 MAD",
+        "enterprise": "Plus de 50 000 MAD",
+        "undefined": "À définir ensemble"
+      }
+    },
+    "success": {
+      "title": "Message envoyé ! 🎉",
+      "message": "Merci pour votre demande. Nous vous répondons sous 24h ouvrables."
+    },
+    "error": {
+      "title": "Erreur d'envoi",
+      "message": "Une erreur s'est produite. Veuillez réessayer ou nous contacter via WhatsApp."
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "contact@casa-web.ma",
+      "phone": "+212 6 00 00 00 00",
+      "location": "Casablanca, Maroc (Remote-first)",
+      "hours": "Lun–Ven, 9h–18h"
+    },
+    "whatsapp": "Contacter sur WhatsApp",
+    "validation": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Email invalide",
+      "phoneRequired": "Le téléphone est requis",
+      "serviceRequired": "Veuillez sélectionner un service",
+      "messageRequired": "Le message est requis",
+      "messageMinLength": "Le message doit contenir au moins 20 caractères"
+    }
+  },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience et analyser notre trafic.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "learnMore": "En savoir plus"
+  },
+  "footer": {
+    "description": "Agence digitale basée à Casablanca. Nous transformons vos idées en succès numériques.",
+    "links": {
+      "title": "Liens rapides"
+    },
+    "services": {
+      "title": "Services"
+    },
+    "contact": {
+      "title": "Contact"
+    },
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    },
+    "copyright": "© {year} Casa Web. Tous droits réservés.",
+    "madeWith": "Fait avec ❤️ à Casablanca"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "subtitle": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : Août 2025"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : Août 2025"
+  },
+  "whatsapp": {
+    "tooltip": "Discuter sur WhatsApp",
+    "prefilledMessage": "Bonjour Casa Web ! Je voudrais discuter d'un projet digital."
+  }
+}
