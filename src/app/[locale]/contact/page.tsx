@@ -24,13 +24,18 @@ export default function ContactPage() {
 
   return (
     <>
-      <div className="pt-24 pb-12 bg-gradient-to-br from-slate-50 to-brand-50/30">
+      <div className="pt-24 pb-16 border-b border-slate-200 bg-[#f8f7f4]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center">
           <FadeIn>
-            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">
+            <p className="text-xs font-semibold tracking-widest uppercase text-brand-600 mb-4">
+              Discutons-en
+            </p>
+            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-5 tracking-tight">
               {t("title")}
             </h1>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">{t("subtitle")}</p>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+              {t("subtitle")}
+            </p>
           </FadeIn>
         </div>
       </div>

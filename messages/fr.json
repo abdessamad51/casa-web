@@ -44,109 +44,109 @@
     "closeMenu": "Fermer le menu"
   },
   "hero": {
-    "badge": "Agence Digitale au Maroc 🇲🇦",
-    "title": "Votre présence digitale,",
-    "titleHighlight": "notre expertise.",
-    "subtitle": "Nous créons des sites web performants, des applications mobiles sur mesure et des stratégies SEO qui transforment vos visiteurs en clients.",
+    "badge": "Agence web & mobile — Casablanca",
+    "title": "Des sites qui travaillent.",
+    "titleHighlight": "Pas que qui existent.",
+    "subtitle": "Nous construisons des sites vitrine, applications mobiles et landing pages pour des PME marocaines qui veulent plus de clients — pas juste une présence en ligne.",
     "cta1": "Demandez un devis gratuit",
     "cta2": "Voir nos réalisations",
     "stats": {
       "projects": "Projets livrés",
-      "clients": "Clients satisfaits",
+      "clients": "Clients actifs",
       "experience": "Années d'expérience",
       "satisfaction": "Taux de satisfaction"
     }
   },
   "services": {
-    "title": "Nos Services",
-    "subtitle": "Des solutions digitales complètes pour propulser votre business au niveau supérieur",
-    "cta": "En savoir plus",
+    "title": "Ce que nous faisons",
+    "subtitle": "Six services concrets, facturés en MAD, livrés avec un interlocuteur dédié — sans jargon ni frais cachés.",
+    "cta": "Voir les détails",
     "items": {
       "web": {
         "title": "Développement Web",
-        "description": "Sites vitrine, applications web et plateformes e-commerce conçus pour convertir. Technologies modernes, performance optimale.",
+        "description": "Sites vitrine, applications web et plateformes e-commerce construits avec Next.js ou WordPress selon votre besoin. Rapides, accessibles, maintenables.",
         "price": "À partir de 3 000 MAD"
       },
       "mobile": {
         "title": "Application Mobile",
-        "description": "Apps iOS & Android natives ou cross-platform (React Native). De l'idée au déploiement sur l'App Store et Google Play.",
+        "description": "Apps iOS & Android en React Native. Nous couvrons le design, le développement et la publication sur l'App Store et Google Play.",
         "price": "À partir de 15 000 MAD"
       },
       "landing": {
         "title": "Landing Pages",
-        "description": "Pages de vente à fort taux de conversion livrées en 72h. Copywriting, design optimisé et A/B testing inclus.",
+        "description": "Pages de vente livrées en 72h. Structure argumentative, formulaire optimisé et hébergement inclus pour tester une offre ou un produit.",
         "price": "À partir de 1 500 MAD"
       },
       "seo": {
         "title": "Référencement SEO",
-        "description": "Audit technique, optimisation on-page, stratégie de contenu et netlinking pour dominer les résultats de recherche.",
+        "description": "Audit technique, correction des erreurs de crawl, optimisation on-page et suivi mensuel des positions sur les requêtes qui comptent pour votre secteur.",
         "price": "À partir de 2 000 MAD/mois"
       },
       "maintenance": {
         "title": "Maintenance & Support",
-        "description": "Mises à jour régulières, surveillance de sécurité, sauvegardes automatiques et support réactif pour votre tranquillité d'esprit.",
+        "description": "Mises à jour, surveillance de sécurité, sauvegardes quotidiennes et corrections réactives. Un forfait mensuel fixe, pas de surprises.",
         "price": "À partir de 500 MAD/mois"
       },
       "vps": {
         "title": "Hébergement VPS",
-        "description": "Déploiement, configuration et monitoring de serveurs VPS. Ubuntu + Nginx + SSL + sauvegardes — nous gérons tout.",
+        "description": "Configuration et gestion de serveurs VPS sous Ubuntu. Nginx, SSL Let's Encrypt, PM2 et monitoring inclus. Ce site même tourne sur un VPS.",
         "price": "À partir de 299 MAD/mois"
       }
     }
   },
   "whyUs": {
-    "title": "Pourquoi choisir Casa Web ?",
-    "subtitle": "Nous combinons expertise technique et compréhension du marché marocain pour livrer des résultats concrets.",
+    "title": "Pourquoi travailler avec nous",
+    "subtitle": "Nous ne sommes pas une agence généraliste. Nous travaillons avec un nombre limité de clients pour livrer correctement.",
     "items": {
       "fast": {
-        "title": "Livraison Rapide",
-        "description": "Délais respectés à 100%. Nous planifions avec précision et livrons comme promis."
+        "title": "Délais tenus",
+        "description": "Chaque projet démarre avec un planning daté. Si nous prenons du retard, nous vous prévenons avant, pas après."
       },
       "quality": {
-        "title": "Qualité Premium",
-        "description": "Code propre, design soigné et performances optimisées. Chaque projet est traité avec le même soin."
+        "title": "Code maintenable",
+        "description": "Pas de page builder, pas de thème acheté à 29$. Code propre, testé et documenté que vous pouvez faire évoluer."
       },
       "support": {
-        "title": "Support Réactif",
-        "description": "Réponse sous 24h garantie. Un interlocuteur dédié pour chaque projet."
+        "title": "Réponse sous 24h",
+        "description": "Un numéro WhatsApp direct, pas un ticket dans un système. Lun–Ven 9h–18h, avec suivi le samedi si urgent."
       },
       "local": {
-        "title": "Expertise Locale",
-        "description": "Nous comprenons le marché marocain : culture, langues, comportements d'achat. Un avantage concret."
+        "title": "Basés à Casablanca",
+        "description": "Nous connaissons les intégrateurs de paiement marocains, les hébergeurs locaux et les contraintes de la CNDP. Pas besoin de nous expliquer le contexte."
       },
       "seo": {
-        "title": "SEO-First",
-        "description": "Chaque site est construit avec le SEO en tête. Structure, performances et métadonnées optimisées dès le départ."
+        "title": "SEO dès la structure",
+        "description": "Balises, performance Core Web Vitals et données structurées sont posées au départ. Le SEO ne s'ajoute pas après coup."
       },
       "transparent": {
-        "title": "Tarifs Transparents",
-        "description": "Pas de surprises. Devis détaillés, contrats clairs et suivi de projet accessible en temps réel."
+        "title": "Devis ligne par ligne",
+        "description": "Vous savez exactement ce que vous payez avant de signer. Contrat en français, paiement par virement ou chèque."
       }
     }
   },
   "process": {
-    "title": "Notre Processus",
-    "subtitle": "Une méthode éprouvée en 5 étapes pour transformer votre vision en réalité digitale",
+    "title": "Comment nous travaillons",
+    "subtitle": "Cinq étapes, un planning partagé, zéro surprise en cours de route.",
     "steps": {
       "discover": {
-        "title": "Découverte",
-        "description": "Analyse de vos besoins, de votre marché et de vos objectifs."
+        "title": "Cadrage",
+        "description": "Appel ou réunion de 30–60 min pour cerner vos objectifs, votre cible et vos contraintes techniques."
       },
       "design": {
-        "title": "Design",
-        "description": "Maquettes UI/UX validées avant le développement."
+        "title": "Maquettes",
+        "description": "Wireframes puis maquettes haute fidélité soumis à votre validation avant le moindre développement."
       },
       "build": {
         "title": "Développement",
-        "description": "Code propre, performant et maintenable avec des revues régulières."
+        "description": "Points hebdomadaires et accès à un environnement de staging pour suivre l'avancement en temps réel."
       },
       "launch": {
-        "title": "Lancement",
-        "description": "Déploiement sécurisé, tests qualité et formation incluse."
+        "title": "Mise en ligne",
+        "description": "Tests cross-navigateur, déploiement sécurisé, configuration DNS et formation à la prise en main."
       },
       "support": {
-        "title": "Support",
-        "description": "Suivi continu, mises à jour et évolutions selon vos besoins."
+        "title": "Suivi",
+        "description": "30 jours de corrections inclus. Ensuite, forfait de maintenance mensuel si vous le souhaitez."
       }
     }
   },
@@ -227,11 +227,21 @@
     "subtitle": "Des forfaits adaptés à chaque étape de votre croissance. Pas de frais cachés.",
     "billedMonthly": "Mensuel",
     "billedAnnually": "Annuel (-20%)",
-    "popular": "Plus populaire",
+    "popular": "Recommandé",
     "cta": "Démarrer",
     "ctaCustom": "Contactez-nous",
     "included": "Inclus",
     "notIncluded": "Non inclus",
+    "commonTitle": "Inclus dans tous les forfaits",
+    "commonFeatures": [
+      "Devis sans engagement",
+      "Livraison selon planning",
+      "Hébergement sécurisé HTTPS",
+      "Design responsive",
+      "Optimisation SEO de base",
+      "Code source documenté",
+      "Support post-livraison 30j"
+    ],
     "plans": {
       "starter": {
         "name": "Starter",
@@ -293,45 +303,45 @@
     }
   },
   "about": {
-    "title": "Notre Histoire",
-    "subtitle": "Casa Web est née d'une conviction : les entreprises marocaines méritent des solutions digitales de classe mondiale.",
-    "story": "Fondée à Casablanca, Casa Web regroupe des développeurs, designers et experts SEO passionnés par leur métier. Notre mission est simple : transformer vos idées en expériences digitales qui génèrent des résultats concrets. Nous croyons que le design est au service du business, et que chaque ligne de code doit avoir un objectif.",
+    "title": "Casa Web",
+    "subtitle": "Une équipe de quatre personnes basée à Casablanca. On fait du web, du mobile et du SEO depuis 2019.",
+    "story": "Casa Web a démarré avec un constat simple : beaucoup d'agences vendent des sites aux PME marocaines sans réellement s'investir dans leur réussite. On a décidé de travailler différemment — petit portefeuille de clients, relation directe, livraisons documentées. Aujourd'hui, la majorité de nos clients viennent par recommandation. On prend ça comme le meilleur indicateur de qualité.",
     "mission": {
-      "title": "Notre Mission",
-      "text": "Démocratiser l'excellence digitale pour les entreprises marocaines, en livrant des projets de qualité internationale à des prix justes."
+      "title": "Comment on fonctionne",
+      "text": "On limite le nombre de projets simultanés à six. Pas par principe, mais parce qu'au-delà, on ne peut plus garantir la qualité et les délais qu'on promet. Si votre projet ne peut pas démarrer immédiatement, on vous dit l'heure d'arrivée estimée et on vous propose une date de démarrage ferme."
     },
     "values": {
-      "title": "Nos Valeurs",
+      "title": "Ce qui nous caractérise",
       "items": {
-        "excellence": "Excellence",
-        "transparency": "Transparence",
-        "innovation": "Innovation",
-        "results": "Résultats"
+        "excellence": "Rigueur",
+        "transparency": "Honnêteté",
+        "innovation": "Curiosité",
+        "results": "Livraison"
       }
     },
     "team": {
       "title": "L'équipe",
-      "subtitle": "Des experts passionnés à votre service",
+      "subtitle": "Quatre personnes, aucune externalisée",
       "members": {
         "m1": {
           "name": "Ahmed Benali",
-          "role": "Fondateur & Lead Dev",
-          "bio": "10 ans d'expérience en développement web. Spécialiste Next.js et Node.js."
+          "role": "Fondateur & développeur fullstack",
+          "bio": "Next.js, Node.js, PostgreSQL. Ancien développeur chez une fintech basée à Dubaï, rentré à Casablanca en 2019."
         },
         "m2": {
           "name": "Salma Idrissi",
-          "role": "Lead Designer",
-          "bio": "Experte en UI/UX et design de marque. Ancienne de Publicis."
+          "role": "Designer UI/UX",
+          "bio": "Figma, design system, recherche utilisateur. 5 ans en agence, passée chez plusieurs marques marocaines de distribution."
         },
         "m3": {
           "name": "Omar Hakim",
-          "role": "Expert SEO & Marketing",
-          "bio": "Spécialiste en référencement naturel et stratégie de contenu."
+          "role": "SEO & contenu",
+          "bio": "Audit technique, netlinking, rédaction optimisée. Suit l'évolution de Google Search depuis 2015 — c'est son hobby autant que son métier."
         },
         "m4": {
           "name": "Zineb Mansour",
-          "role": "Dev Mobile",
-          "bio": "Développeuse React Native avec 6 apps publiées sur les stores."
+          "role": "Développeuse mobile",
+          "bio": "React Native, publication App Store & Play Store. 6 applications publiées, dont deux avec plus de 5 000 utilisateurs actifs."
         }
       }
     }

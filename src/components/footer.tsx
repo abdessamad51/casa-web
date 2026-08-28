@@ -23,7 +23,7 @@ const SERVICE_LINKS = [
 
 export function Footer() {
   const t = useTranslations();
-  const year = new Date().getFullYear();
+  const year = 2026;
 
   return (
     <footer className="bg-slate-900 text-slate-300">
@@ -32,7 +32,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg gradient-brand flex items-center justify-center text-white font-bold text-sm">
+              <div className="w-8 h-8 bg-brand-600 flex items-center justify-center text-white font-bold text-xs">
                 CW
               </div>
               <span className="font-display font-bold text-xl text-white">

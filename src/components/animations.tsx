@@ -14,23 +14,23 @@ interface FadeInProps {
 export function FadeIn({
   children,
   delay = 0,
-  duration = 0.5,
+  duration = 0.45,
   className,
   direction = "up",
 }: FadeInProps) {
   const directionMap = {
-    up: { y: 24, x: 0 },
-    down: { y: -24, x: 0 },
-    left: { y: 0, x: 24 },
-    right: { y: 0, x: -24 },
-    none: { y: 0, x: 0 },
+    up:    { y: 16, x: 0 },
+    down:  { y: -16, x: 0 },
+    left:  { y: 0,  x: 20 },
+    right: { y: 0,  x: -20 },
+    none:  { y: 0,  x: 0 },
   };
 
   return (
     <motion.div
       initial={{ opacity: 0, ...directionMap[direction] }}
       whileInView={{ opacity: 1, y: 0, x: 0 }}
-      viewport={{ once: true, margin: "0px" }}
+      viewport={{ once: true, margin: "-40px" }}
       transition={{ duration, delay, ease: [0.21, 0.47, 0.32, 0.98] }}
       className={className}
     >
@@ -45,13 +45,18 @@ interface StaggerProps {
   delay?: number;
 }
 
+/**
+ * StaggerChildren — subtler than the original: items fade in at 0.06s
+ * intervals with only 10px vertical movement so it doesn't read as a
+ * generic "AI template" reveal effect.
+ */
 export function StaggerChildren({ children, className, delay = 0 }: StaggerProps) {
   return (
     <motion.div
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, margin: "0px" }}
-      transition={{ staggerChildren: 0.1, delayChildren: delay }}
+      viewport={{ once: true, margin: "-60px" }}
+      transition={{ staggerChildren: 0.06, delayChildren: delay }}
       className={className}
     >
       {children}
@@ -63,8 +68,8 @@ export function StaggerItem({ children, className }: { children: ReactNode; clas
   return (
     <motion.div
       variants={{
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] } },
+        hidden:  { opacity: 0, y: 10 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.35, ease: [0.21, 0.47, 0.32, 0.98] } },
       }}
       className={className}
     >

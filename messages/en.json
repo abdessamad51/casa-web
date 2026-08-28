@@ -44,23 +44,23 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "badge": "Digital Agency in Morocco 🇲🇦",
-    "title": "Your digital presence,",
-    "titleHighlight": "our expertise.",
-    "subtitle": "We build high-performance websites, custom mobile apps and SEO strategies that turn your visitors into clients.",
+    "badge": "Web & mobile agency — Casablanca",
+    "title": "Sites that work.",
+    "titleHighlight": "Not just exist.",
+    "subtitle": "We build business websites, mobile apps and landing pages for Moroccan SMBs who want more customers — not just an online presence.",
     "cta1": "Get a free quote",
     "cta2": "See our work",
     "stats": {
       "projects": "Projects delivered",
-      "clients": "Happy clients",
+      "clients": "Active clients",
       "experience": "Years of experience",
       "satisfaction": "Satisfaction rate"
     }
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Complete digital solutions to take your business to the next level",
-    "cta": "Learn more",
+    "title": "What we do",
+    "subtitle": "Six concrete services, priced in MAD, delivered with a dedicated contact — no jargon, no hidden fees.",
+    "cta": "View details",
     "items": {
       "web": {
         "title": "Web Development",
@@ -227,11 +227,21 @@
     "subtitle": "Plans adapted to every stage of your growth. No hidden fees.",
     "billedMonthly": "Monthly",
     "billedAnnually": "Annual (-20%)",
-    "popular": "Most popular",
+    "popular": "Recommended",
     "cta": "Get started",
     "ctaCustom": "Contact us",
     "included": "Included",
     "notIncluded": "Not included",
+    "commonTitle": "Included in every plan",
+    "commonFeatures": [
+      "No-commitment quote",
+      "Delivery on schedule",
+      "Secure HTTPS hosting",
+      "Responsive design",
+      "Basic SEO optimisation",
+      "Documented source code",
+      "30-day post-delivery support"
+    ],
     "plans": {
       "starter": {
         "name": "Starter",

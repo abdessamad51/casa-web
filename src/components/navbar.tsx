@@ -60,7 +60,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg gradient-brand flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-8 h-8 bg-brand-600 flex items-center justify-center text-white font-bold text-xs">
               CW
             </div>
             <span className="font-display font-bold text-xl text-slate-900 group-hover:text-brand-600 transition-colors">

@@ -61,20 +61,18 @@ export default async function LocaleLayout({
   const isRTL = locale === "ar";
 
   return (
-    <html lang={locale} dir={isRTL ? "rtl" : "ltr"} suppressHydrationWarning>
-      <body>
-        <NextIntlClientProvider messages={messages}>
-          <LocalBusinessSchema />
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-          <WhatsAppButton />
-          <CookieBanner />
-        </NextIntlClientProvider>
-        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
-        )}
-      </body>
-    </html>
+    <div dir={isRTL ? "rtl" : "ltr"} className="min-h-screen flex flex-col">
+      <NextIntlClientProvider messages={messages}>
+        <LocalBusinessSchema />
+        <Navbar />
+        <main className="flex-grow">{children}</main>
+        <Footer />
+        <WhatsAppButton />
+        <CookieBanner />
+      </NextIntlClientProvider>
+      {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+      )}
+    </div>
   );
 }

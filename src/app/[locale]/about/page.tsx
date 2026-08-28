@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Section } from "@/components/section";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 import { CtaSection } from "../_sections/cta";
+import { CheckSquare, Eye, Lightbulb, Package } from "lucide-react";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -17,95 +18,110 @@ export async function generateMetadata({
 
 const TEAM_KEYS = ["m1", "m2", "m3", "m4"] as const;
 const VALUE_KEYS = ["excellence", "transparency", "innovation", "results"] as const;
-const VALUE_ICONS = ["⭐", "🤝", "💡", "📈"];
+const VALUE_ICONS = [CheckSquare, Eye, Lightbulb, Package];
 
 export default function AboutPage() {
   const t = useTranslations("about");
 
   return (
     <>
-      {/* Hero */}
-      <div className="pt-24 pb-12 bg-gradient-to-br from-slate-50 to-brand-50/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+      {/* Page header — no full-bleed gradient */}
+      <div className="pt-24 pb-16 border-b border-slate-200 bg-[#f8f7f4]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <FadeIn>
-            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">
+            <p className="text-xs font-semibold tracking-widest uppercase text-brand-600 mb-4">
+              Agence web &amp; mobile — Casablanca
+            </p>
+            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-5 tracking-tight">
               {t("title")}
             </h1>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-slate-600 max-w-2xl leading-relaxed">
               {t("subtitle")}
             </p>
           </FadeIn>
         </div>
       </div>
 
-      {/* Story */}
+      {/* Story + mission box side-by-side */}
       <Section>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <FadeIn direction="left">
-            <div className="aspect-square rounded-3xl bg-gradient-to-br from-brand-100 to-accent-100 flex items-center justify-center max-w-md mx-auto lg:mx-0">
-              <span className="text-8xl">🇲🇦</span>
-            </div>
+            <p className="text-slate-600 leading-relaxed text-lg">{t("story")}</p>
           </FadeIn>
           <FadeIn direction="right">
-            <div>
-              <div className="inline-block bg-brand-50 text-brand-700 text-sm font-medium px-3 py-1 rounded-full mb-4">
-                Notre histoire
-              </div>
-              <p className="text-slate-600 leading-relaxed mb-6">{t("story")}</p>
-
-              <div className="bg-brand-50 rounded-2xl p-6 border border-brand-100">
-                <h3 className="font-display font-semibold text-slate-900 mb-2">
-                  {t("mission.title")}
-                </h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{t("mission.text")}</p>
-              </div>
+            <div className="bg-slate-50 border border-slate-200 p-8">
+              <p className="text-xs font-semibold tracking-widest uppercase text-brand-600 mb-3">
+                {t("mission.title")}
+              </p>
+              <p className="text-slate-700 leading-relaxed">{t("mission.text")}</p>
+              <dl className="mt-8 grid grid-cols-2 gap-6">
+                <div>
+                  <dt className="text-3xl font-display font-bold text-slate-900">6</dt>
+                  <dd className="text-sm text-slate-500 mt-1">projets max en simultané</dd>
+                </div>
+                <div>
+                  <dt className="text-3xl font-display font-bold text-slate-900">24h</dt>
+                  <dd className="text-sm text-slate-500 mt-1">délai de réponse garanti</dd>
+                </div>
+                <div>
+                  <dt className="text-3xl font-display font-bold text-slate-900">2019</dt>
+                  <dd className="text-sm text-slate-500 mt-1">année de création</dd>
+                </div>
+                <div>
+                  <dt className="text-3xl font-display font-bold text-slate-900">50+</dt>
+                  <dd className="text-sm text-slate-500 mt-1">projets livrés</dd>
+                </div>
+              </dl>
             </div>
           </FadeIn>
         </div>
       </Section>
 
-      {/* Values */}
+      {/* Values — ruled grid, no emoji */}
       <Section className="bg-slate-50">
         <FadeIn>
-          <h2 className="font-display font-bold text-3xl text-slate-900 text-center mb-10">
+          <h2 className="font-display font-bold text-2xl text-slate-900 mb-10 tracking-tight">
             {t("values.title")}
           </h2>
         </FadeIn>
-        <StaggerChildren className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {VALUE_KEYS.map((key, i) => (
-            <StaggerItem key={key}>
-              <div className="bg-white rounded-2xl p-6 text-center border border-slate-200 hover:border-brand-300 hover:shadow-md transition-all">
-                <div className="text-4xl mb-3">{VALUE_ICONS[i]}</div>
-                <h3 className="font-display font-semibold text-slate-900">
-                  {t(`values.items.${key}`)}
-                </h3>
-              </div>
-            </StaggerItem>
-          ))}
+        <StaggerChildren className="grid grid-cols-2 md:grid-cols-4 border border-slate-200">
+          {VALUE_KEYS.map((key, i) => {
+            const Icon = VALUE_ICONS[i];
+            return (
+              <StaggerItem key={key}>
+                <div className="p-8 border-r border-b border-slate-200 [&:nth-child(2n)]:border-r-0 md:[&:nth-child(2n)]:border-r md:[&:nth-child(4n)]:border-r-0">
+                  <Icon className="w-5 h-5 text-brand-600 mb-4" strokeWidth={1.5} />
+                  <h3 className="font-display font-semibold text-slate-900 text-sm">
+                    {t(`values.items.${key}`)}
+                  </h3>
+                </div>
+              </StaggerItem>
+            );
+          })}
         </StaggerChildren>
       </Section>
 
-      {/* Team */}
+      {/* Team — flat cards, monogram on slate-900, no gradient avatars */}
       <Section>
         <FadeIn>
-          <div className="text-center mb-12">
-            <h2 className="font-display font-bold text-3xl text-slate-900 mb-3">
+          <div className="mb-12">
+            <h2 className="font-display font-bold text-2xl text-slate-900 mb-2 tracking-tight">
               {t("team.title")}
             </h2>
-            <p className="text-slate-600">{t("team.subtitle")}</p>
+            <p className="text-slate-500 text-sm">{t("team.subtitle")}</p>
           </div>
         </FadeIn>
-        <StaggerChildren className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <StaggerChildren className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-200">
           {TEAM_KEYS.map((key) => (
             <StaggerItem key={key}>
-              <div className="bg-white rounded-2xl p-6 text-center border border-slate-200 hover:border-brand-300 hover:shadow-md transition-all">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center text-white font-display font-bold text-2xl mx-auto mb-4">
+              <div className="bg-white p-6 h-full">
+                <div className="w-12 h-12 bg-slate-900 flex items-center justify-center text-white font-display font-bold text-lg mb-4">
                   {t(`team.members.${key}.name`)[0]}
                 </div>
-                <h3 className="font-display font-semibold text-slate-900 mb-1">
+                <h3 className="font-display font-semibold text-slate-900 mb-0.5 text-sm">
                   {t(`team.members.${key}.name`)}
                 </h3>
-                <p className="text-xs text-brand-600 font-medium mb-2">
+                <p className="text-xs text-brand-600 font-medium mb-3">
                   {t(`team.members.${key}.role`)}
                 </p>
                 <p className="text-xs text-slate-500 leading-relaxed">

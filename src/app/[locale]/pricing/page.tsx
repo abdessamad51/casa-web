@@ -23,13 +23,18 @@ export default function PricingPage() {
 
   return (
     <>
-      <div className="pt-24 pb-12 bg-gradient-to-br from-slate-50 to-brand-50/30">
+      <div className="pt-24 pb-16 border-b border-slate-200 bg-[#f8f7f4]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center">
           <FadeIn>
-            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">
+            <p className="text-xs font-semibold tracking-widest uppercase text-brand-600 mb-4">
+              Investissement
+            </p>
+            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-5 tracking-tight">
               {t("title")}
             </h1>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">{t("subtitle")}</p>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+              {t("subtitle")}
+            </p>
           </FadeIn>
         </div>
       </div>
@@ -46,6 +51,7 @@ export default function PricingPage() {
                 features={t.raw(`plans.${key}.features`)}
                 notIncluded={t.raw(`plans.${key}.notIncluded`)}
                 isPopular={key === "business"}
+                popularLabel={t("popular")}
                 ctaLabel={key === "custom" ? t("ctaCustom") : t("cta")}
                 includedLabel={t("included")}
                 notIncludedLabel={t("notIncluded")}
@@ -55,23 +61,16 @@ export default function PricingPage() {
         </StaggerChildren>
 
         <FadeIn delay={0.4}>
-          <div className="mt-16 bg-slate-50 rounded-2xl p-8 border border-slate-200">
-            <h2 className="font-display font-bold text-2xl text-slate-900 mb-4 text-center">
-              Tout ce qui est inclus dans chaque forfait
+          <div className="mt-16 bg-slate-50 border-t border-b sm:border sm:rounded-2xl border-slate-200 p-8 sm:p-12">
+            <h2 className="font-display font-semibold text-xl text-slate-900 mb-8 text-center">
+              {t("commonTitle")}
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-sm text-slate-600">
-              {[
-                "✓ Devis gratuit sans engagement",
-                "✓ Livraison selon planning convenu",
-                "✓ Hébergement sécurisé HTTPS",
-                "✓ Design responsive mobile-first",
-                "✓ Optimisation SEO de base",
-                "✓ Formation à la prise en main",
-                "✓ Code source livré",
-                "✓ Documentation technique",
-                "✓ Support post-livraison 30 jours",
-              ].map((item) => (
-                <div key={item} className="flex items-center gap-2">{item}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 text-sm text-slate-600">
+              {t.raw("commonFeatures").map((item: string) => (
+                <div key={item} className="flex items-center gap-3">
+                  <span className="text-brand-600 font-bold">+</span>
+                  {item}
+                </div>
               ))}
             </div>
           </div>

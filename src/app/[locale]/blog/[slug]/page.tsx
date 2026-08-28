@@ -61,20 +61,20 @@ export default async function BlogPostPage({
 
   return (
     <>
-      <div className="pt-24 pb-12 bg-gradient-to-br from-slate-50 to-brand-50/30">
+      <div className="pt-24 pb-16 border-b border-slate-200 bg-[#f8f7f4]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <FadeIn>
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-brand-600 transition-colors mb-6"
+              className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase text-brand-600 hover:text-brand-700 transition-colors mb-6"
             >
               <ArrowLeft className="w-4 h-4" />
               Retour au blog
             </Link>
-            <h1 className="font-display font-bold text-3xl md:text-4xl text-slate-900 mb-4">
+            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-6 tracking-tight leading-[1.1]">
               {frontmatter.title as string}
             </h1>
-            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500">
+            <div className="flex flex-wrap items-center gap-6 text-sm text-slate-600">
               <span className="flex items-center gap-1.5">
                 <User className="w-4 h-4" />
                 {frontmatter.author as string}
