@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
-import { Section, SectionHeader } from "@/components/section";
+import { Section } from "@/components/section";
 import { FadeIn, StaggerChildren, StaggerItem } from "@/components/animations";
 import { CtaSection } from "../_sections/cta";
 import type { Metadata } from "next";
@@ -11,7 +11,6 @@ import {
   Search,
   Wrench,
   Server,
-  Check,
   ArrowRight,
 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -26,12 +25,12 @@ export async function generateMetadata({
   return { title: t("title"), description: t("description") };
 }
 
+// Keep the hardcoded data for now but we strip out the gradients
 const SERVICES = [
   {
     key: "web",
     id: "web",
     icon: Globe,
-    color: "from-brand-500 to-brand-600",
     tech: ["Next.js", "React", "TypeScript", "Node.js", "PostgreSQL"],
     included: [
       "Audit & stratégie",
@@ -46,7 +45,6 @@ const SERVICES = [
     key: "mobile",
     id: "mobile",
     icon: Smartphone,
-    color: "from-violet-500 to-violet-600",
     tech: ["React Native", "Expo", "Firebase", "REST APIs"],
     included: [
       "Design natif iOS & Android",
@@ -61,7 +59,6 @@ const SERVICES = [
     key: "landing",
     id: "landing",
     icon: Megaphone,
-    color: "from-pink-500 to-pink-600",
     tech: ["Next.js", "Tailwind", "Framer Motion", "Analytics"],
     included: [
       "Copywriting inclus",
@@ -76,7 +73,6 @@ const SERVICES = [
     key: "seo",
     id: "seo",
     icon: Search,
-    color: "from-emerald-500 to-emerald-600",
     tech: ["Screaming Frog", "Ahrefs", "Google Search Console"],
     included: [
       "Audit technique complet",
@@ -91,7 +87,6 @@ const SERVICES = [
     key: "maintenance",
     id: "maintenance",
     icon: Wrench,
-    color: "from-orange-500 to-orange-600",
     tech: ["WordPress", "Next.js", "CPanel", "Cloudflare"],
     included: [
       "Mises à jour CMS & plugins",
@@ -106,7 +101,6 @@ const SERVICES = [
     key: "vps",
     id: "vps",
     icon: Server,
-    color: "from-slate-600 to-slate-700",
     tech: ["Ubuntu", "Nginx", "Docker", "PM2", "Certbot", "Cloudflare"],
     included: [
       "Configuration serveur complète",
@@ -119,65 +113,73 @@ const SERVICES = [
   },
 ] as const;
 
-function ServiceBlock({ service }: { service: (typeof SERVICES)[number] }) {
+function ServiceBlock({ service, number }: { service: (typeof SERVICES)[number], number: string }) {
   const t = useTranslations("services");
+  const tCta = useTranslations("cta");
   const Icon = service.icon;
-  const index = SERVICES.indexOf(service);
-  const isEven = index % 2 === 0;
 
   return (
     <div
       id={service.id}
-      className={`flex flex-col ${isEven ? "lg:flex-row" : "lg:flex-row-reverse"} gap-8 lg:gap-16 items-center py-12 border-b border-slate-100 last:border-0`}
+      className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 py-16 border-t border-slate-200 first:border-0"
     >
-      {/* Visual */}
-      <div className="w-full lg:w-5/12">
-        <div
-          className={`aspect-square rounded-3xl bg-gradient-to-br ${service.color} flex items-center justify-center max-w-xs mx-auto`}
-        >
-          <Icon className="w-24 h-24 text-white/80" />
+      {/* 1. Header & Icon (Col 1-4) */}
+      <div className="lg:col-span-4 flex flex-col gap-6">
+        <div className="flex items-center gap-4">
+          <span className="font-mono text-sm text-slate-400">{number}</span>
+          <div className="w-12 h-12 bg-slate-100 flex items-center justify-center">
+            <Icon className="w-5 h-5 text-slate-900" strokeWidth={1.5} />
+          </div>
+        </div>
+        <div>
+          <h2 className="font-display font-bold text-3xl text-slate-900 mb-3 tracking-tight">
+            {t(`items.${service.key}.title`)}
+          </h2>
+          <div className="inline-block border border-slate-200 bg-white text-xs font-semibold uppercase tracking-widest text-slate-700 px-3 py-1">
+            {t(`items.${service.key}.price`)}
+          </div>
         </div>
       </div>
 
-      {/* Content */}
-      <div className="w-full lg:w-7/12">
-        <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 text-sm font-medium px-3 py-1 rounded-full mb-4">
-          {t(`items.${service.key}.price`)}
-        </div>
-        <h2 className="font-display font-bold text-3xl text-slate-900 mb-3">
-          {t(`items.${service.key}.title`)}
-        </h2>
-        <p className="text-slate-600 leading-relaxed mb-6">
+      {/* 2. Description & Tech Stack (Col 5-8) */}
+      <div className="lg:col-span-4 flex flex-col justify-between">
+        <p className="text-slate-600 leading-relaxed text-[15px] mb-8">
           {t(`items.${service.key}.description`)}
         </p>
-
-        {/* Included list */}
-        <ul className="space-y-2 mb-6">
-          {service.included.map((item) => (
-            <li key={item} className="flex items-center gap-2 text-sm text-slate-600">
-              <Check className="w-4 h-4 text-emerald-500 shrink-0" />
-              {item}
-            </li>
-          ))}
-        </ul>
-
-        {/* Tech stack */}
-        <div className="flex flex-wrap gap-2 mb-6">
-          {service.tech.map((tech) => (
-            <span
-              key={tech}
-              className="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded-full"
-            >
-              {tech}
-            </span>
-          ))}
+        <div>
+          <p className="text-xs font-semibold text-slate-900 uppercase tracking-widest mb-4">Technologies</p>
+          <div className="flex flex-wrap gap-2">
+            {service.tech.map((tech) => (
+              <span
+                key={tech}
+                className="text-xs font-mono bg-slate-50 text-slate-600 px-2.5 py-1 border border-slate-200"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
         </div>
+      </div>
 
+      {/* 3. Included & CTA (Col 9-12) */}
+      <div className="lg:col-span-4 flex flex-col justify-between bg-slate-50 border border-slate-200 p-6">
+        <div>
+          <p className="text-xs font-semibold text-slate-900 uppercase tracking-widest mb-4">Au programme</p>
+          <ul className="space-y-3 mb-8">
+            {service.included.map((item) => (
+              <li key={item} className="flex items-start gap-3 text-sm text-slate-700">
+                <span className="text-brand-600 font-bold mt-[-1px]">+</span>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        
         <Link
           href="/contact"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-600 text-white text-sm font-semibold hover:bg-brand-700 transition-all"
+          className="inline-flex items-center justify-between w-full border-t border-slate-200 pt-4 text-sm font-semibold text-slate-900 hover:text-brand-600 transition-colors group-hover:text-brand-600"
         >
-          Demandez un devis <ArrowRight className="w-4 h-4" />
+          {tCta("title")} <ArrowRight className="w-4 h-4" />
         </Link>
       </div>
     </div>
@@ -189,22 +191,32 @@ export default function ServicesPage() {
 
   return (
     <>
-      <div className="pt-24 pb-12 bg-gradient-to-br from-slate-50 to-brand-50/30">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center">
+      {/* Clean Editorial Header */}
+      <div className="pt-24 pb-16 border-b border-slate-200 bg-[#f8f7f4]">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <FadeIn>
-            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">
+            <p className="text-xs font-semibold tracking-widest uppercase text-brand-600 mb-4">
+              Notre Expertise
+            </p>
+            <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-5 tracking-tight">
               {t("title")}
             </h1>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">{t("subtitle")}</p>
+            <p className="text-xl text-slate-600 max-w-2xl leading-relaxed">
+              {t("subtitle")}
+            </p>
           </FadeIn>
         </div>
       </div>
 
-      <Section>
-        <StaggerChildren>
-          {SERVICES.map((service) => (
+      {/* Flat Structured Grid Layout for Services */}
+      <Section className="py-12 lg:py-24">
+        <StaggerChildren className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          {SERVICES.map((service, idx) => (
             <StaggerItem key={service.key}>
-              <ServiceBlock service={service} />
+              <ServiceBlock 
+                service={service} 
+                number={(idx + 1).toString().padStart(2, '0')} 
+              />
             </StaggerItem>
           ))}
         </StaggerChildren>

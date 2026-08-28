@@ -43,6 +43,66 @@
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu"
   },
+  "homeNew": {
+    "hero": {
+      "subtitle": "Sites web, e-commerce & applications conçus pour faire avancer votre business.",
+      "ctaPrimary": "START A PROJECT ↗",
+      "ctaSecondary": "SEE OUR WORK ↓",
+      "location": "Casablanca, Morocco"
+    },
+    "statement": {
+      "title1": "VOTRE SITE EST-IL",
+      "title2": "JUSTE EN LIGNE ?",
+      "equation": "EN LIGNE ≠ EN ACTION",
+      "p1": "Un site peut être beau.",
+      "p2": "Un site peut être rapide.",
+      "p3": "Un site peut être visible.",
+      "p4": "Mais son vrai rôle est simple :",
+      "p5": "faire avancer votre business."
+    },
+    "build": {
+      "title": "WHAT WE BUILD",
+      "items": {
+        "web": { "title": "01 — WEBSITES", "desc": "Vitrines · Corporate · Landing Pages" },
+        "ecom": { "title": "02 — E-COMMERCE", "desc": "Boutiques · Catalogues · Conversion" },
+        "mob": { "title": "03 — MOBILE", "desc": "iOS · Android · React Native" },
+        "growth": { "title": "04 — GROWTH", "desc": "SEO · Performance · Analytics" }
+      }
+    },
+    "work": {
+      "title": "SELECTED WORK",
+      "cta": "VIEW PROJECT ↗"
+    },
+    "difference": {
+      "title1": "NO BULLSHIT.",
+      "bullets": [
+        "No unnecessary jargon.",
+        "No useless features.",
+        "No vague deadlines.",
+        "No surprise invoices."
+      ],
+      "title2": "JUST GOOD WORK.",
+      "desc": "Nous préférons construire moins de projets, mais mieux les construire — avec une communication directe, une exécution propre et un objectif clair."
+    },
+    "process": {
+      "title1": "FROM \"J'AI UNE IDÉE\"",
+      "title2": "TO \"ÇA TOURNE.\"",
+      "items": {
+        "talk": { "title": "01 — TALK", "desc": "Vous nous expliquez le problème." },
+        "think": { "title": "02 — THINK", "desc": "Nous trouvons la bonne solution." },
+        "build": { "title": "03 — BUILD", "desc": "Design. Code. Test." },
+        "launch": { "title": "04 — LAUNCH", "desc": "Mise en ligne. Mesure. Optimisation." }
+      }
+    },
+    "cta": {
+      "title1": "LET'S BUILD",
+      "title2": "SOMETHING",
+      "title3": "USEFUL.",
+      "desc": "Vous avez un projet, un problème ou simplement une idée ?",
+      "btn1": "START A PROJECT ↗",
+      "btn2": "OR JUST SAY HELLO"
+    }
+  },
   "hero": {
     "badge": "Agence web & mobile — Casablanca",
     "title": "Des sites qui travaillent.",

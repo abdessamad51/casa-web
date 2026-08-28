@@ -43,8 +43,68 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
+  "homeNew": {
+    "hero": {
+      "subtitle": "Websites, e-commerce & applications built to drive your business forward.",
+      "ctaPrimary": "START A PROJECT ↗",
+      "ctaSecondary": "SEE OUR WORK ↓",
+      "location": "Casablanca, Morocco"
+    },
+    "statement": {
+      "title1": "IS YOUR WEBSITE",
+      "title2": "JUST ONLINE ?",
+      "equation": "ONLINE ≠ IN ACTION",
+      "p1": "A website can be beautiful.",
+      "p2": "A website can be fast.",
+      "p3": "A website can be visible.",
+      "p4": "But its real job is simple:",
+      "p5": "drive your business forward."
+    },
+    "build": {
+      "title": "WHAT WE BUILD",
+      "items": {
+        "web": { "title": "01 — WEBSITES", "desc": "Corporate · Landing Pages · Showcases" },
+        "ecom": { "title": "02 — E-COMMERCE", "desc": "Stores · Catalogs · Conversion" },
+        "mob": { "title": "03 — MOBILE", "desc": "iOS · Android · React Native" },
+        "growth": { "title": "04 — GROWTH", "desc": "SEO · Performance · Analytics" }
+      }
+    },
+    "work": {
+      "title": "SELECTED WORK",
+      "cta": "VIEW PROJECT ↗"
+    },
+    "difference": {
+      "title1": "NO BULLSHIT.",
+      "bullets": [
+        "No unnecessary jargon.",
+        "No useless features.",
+        "No vague deadlines.",
+        "No surprise invoices."
+      ],
+      "title2": "JUST GOOD WORK.",
+      "desc": "We prefer building fewer projects, but building them better — with direct communication, clean execution, and a clear goal."
+    },
+    "process": {
+      "title1": "FROM \"I HAVE AN IDEA\"",
+      "title2": "TO \"IT'S RUNNING.\"",
+      "items": {
+        "talk": { "title": "01 — TALK", "desc": "You explain the problem." },
+        "think": { "title": "02 — THINK", "desc": "We find the right solution." },
+        "build": { "title": "03 — BUILD", "desc": "Design. Code. Test." },
+        "launch": { "title": "04 — LAUNCH", "desc": "Go live. Measure. Optimize." }
+      }
+    },
+    "cta": {
+      "title1": "LET'S BUILD",
+      "title2": "SOMETHING",
+      "title3": "USEFUL.",
+      "desc": "Have a project, a problem, or just an idea?",
+      "btn1": "START A PROJECT ↗",
+      "btn2": "OR JUST SAY HELLO"
+    }
+  },
   "hero": {
-    "badge": "Web & mobile agency — Casablanca",
+    "badge": "",
     "title": "Sites that work.",
     "titleHighlight": "Not just exist.",
     "subtitle": "We build business websites, mobile apps and landing pages for Moroccan SMBs who want more customers — not just an online presence.",

@@ -34,15 +34,15 @@ export function WhyUsSection() {
           const Icon = WHY_US_ICONS[key];
           return (
             <StaggerItem key={key}>
-              <div className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-100 hover:border-brand-200 hover:shadow-md transition-all group">
-                <div className="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center shrink-0 group-hover:bg-brand-100 transition-colors">
-                  <Icon className="w-5 h-5 text-brand-600" />
+              <div className="flex flex-col gap-4 p-6 border-l border-slate-200">
+                <div className="w-10 h-10 bg-brand-50 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5 text-brand-600" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="font-display font-semibold text-slate-900 mb-1">
+                  <h3 className="font-display font-bold text-slate-900 mb-2">
                     {t(`items.${key}.title`)}
                   </h3>
-                  <p className="text-sm text-slate-500 leading-relaxed">
+                  <p className="text-sm text-slate-600 leading-relaxed">
                     {t(`items.${key}.description`)}
                   </p>
                 </div>

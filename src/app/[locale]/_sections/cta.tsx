@@ -11,17 +11,17 @@ export function CtaSection() {
   const waUrl = getWhatsAppUrl(tWa("prefilledMessage"));
 
   return (
-    <Section className="bg-gradient-to-br from-brand-600 via-brand-700 to-brand-900 text-white">
+    <Section className="bg-brand-600 text-white py-20 lg:py-28">
       <FadeIn>
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-display font-bold text-3xl md:text-5xl mb-4">
+          <h2 className="font-display font-bold text-4xl md:text-5xl mb-6 tracking-tight">
             {t("title")}
           </h2>
-          <p className="text-brand-100 text-lg mb-8">{t("subtitle")}</p>
+          <p className="text-brand-100 text-lg mb-10">{t("subtitle")}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white text-brand-700 font-semibold hover:bg-brand-50 transition-all shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white font-semibold hover:bg-slate-800 transition-all"
             >
               {t("button1")}
               <ArrowRight className="w-4 h-4" />
@@ -30,9 +30,9 @@ export function CtaSection() {
               href={waUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-[#25D366] text-white font-semibold hover:bg-[#1ebe5c] transition-all"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold hover:bg-white/20 transition-all border border-white/20"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-4 h-4" />
               {t("whatsapp")}
             </a>
           </div>

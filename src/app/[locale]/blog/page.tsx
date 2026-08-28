@@ -80,9 +80,9 @@ export default function BlogPage() {
           <StaggerChildren className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.map((post) => (
               <StaggerItem key={post.slug}>
-                <article className="bg-white rounded-2xl border border-slate-200 hover:border-brand-300 hover:shadow-lg transition-all overflow-hidden group">
+                <article className="bg-white border border-slate-200 hover:border-brand-600 transition-all group flex flex-col h-full">
                   {/* Category banner */}
-                  <div className="h-2 bg-gradient-to-r from-brand-500 to-accent-500" />
+                  <div className="h-1 bg-brand-600" />
 
                   <div className="p-6">
                     <div className="flex items-center gap-2 mb-3">

@@ -43,6 +43,66 @@
     "openMenu": "فتح القائمة",
     "closeMenu": "إغلاق القائمة"
   },
+  "homeNew": {
+    "hero": {
+      "subtitle": "مواقع إلكترونية، متاجر وتطبيقات مصممة لدفع عجلة أعمالك.",
+      "ctaPrimary": "START A PROJECT ↗",
+      "ctaSecondary": "SEE OUR WORK ↓",
+      "location": "الدار البيضاء، المغرب"
+    },
+    "statement": {
+      "title1": "هل موقعك",
+      "title2": "متصل بالإنترنت فقط؟",
+      "equation": "ONLINE ≠ IN ACTION",
+      "p1": "يمكن أن يكون الموقع جميلاً.",
+      "p2": "يمكن أن يكون الموقع سريعاً.",
+      "p3": "يمكن أن يكون الموقع مرئياً.",
+      "p4": "لكن دوره الحقيقي بسيط:",
+      "p5": "تنمية عملك."
+    },
+    "build": {
+      "title": "WHAT WE BUILD",
+      "items": {
+        "web": { "title": "01 — WEBSITES", "desc": "مواقع تعريفية · صفحات هبوط · شركات" },
+        "ecom": { "title": "02 — E-COMMERCE", "desc": "متاجر · كتالوجات · تحويل" },
+        "mob": { "title": "03 — MOBILE", "desc": "iOS · Android · React Native" },
+        "growth": { "title": "04 — GROWTH", "desc": "SEO · أداء · تحليلات" }
+      }
+    },
+    "work": {
+      "title": "SELECTED WORK",
+      "cta": "VIEW PROJECT ↗"
+    },
+    "difference": {
+      "title1": "NO BULLSHIT.",
+      "bullets": [
+        "لا مصطلحات معقدة.",
+        "لا ميزات غير ضرورية.",
+        "لا مواعيد نهائية غامضة.",
+        "لا فواتير مفاجئة."
+      ],
+      "title2": "JUST GOOD WORK.",
+      "desc": "نفضل بناء مشاريع أقل، ولكن بناءها بشكل أفضل — بتواصل مباشر، تنفيذ نظيف، وهدف واضح."
+    },
+    "process": {
+      "title1": "FROM \"I HAVE AN IDEA\"",
+      "title2": "TO \"IT'S RUNNING.\"",
+      "items": {
+        "talk": { "title": "01 — TALK", "desc": "تشرح لنا المشكلة." },
+        "think": { "title": "02 — THINK", "desc": "نجد الحل المناسب." },
+        "build": { "title": "03 — BUILD", "desc": "تصميم. برمجة. اختبار." },
+        "launch": { "title": "04 — LAUNCH", "desc": "إطلاق. قياس. تحسين." }
+      }
+    },
+    "cta": {
+      "title1": "LET'S BUILD",
+      "title2": "SOMETHING",
+      "title3": "USEFUL.",
+      "desc": "لديك مشروع، مشكلة، أو مجرد فكرة؟",
+      "btn1": "START A PROJECT ↗",
+      "btn2": "OR JUST SAY HELLO"
+    }
+  },
   "hero": {
     "badge": "وكالة رقمية في المغرب 🇲🇦",
     "title": "حضورك الرقمي،",

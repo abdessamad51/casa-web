@@ -9,7 +9,7 @@ export default async function Image() {
     (
       <div
         style={{
-          background: "linear-gradient(135deg, #1e1b4b 0%, #4f46e5 50%, #312e81 100%)",
+          background: "#0f172a", // slate-900
           width: "100%",
           height: "100%",
           display: "flex",
@@ -33,8 +33,7 @@ export default async function Image() {
             style={{
               width: "60px",
               height: "60px",
-              borderRadius: "12px",
-              background: "linear-gradient(135deg, #6366f1, #f59e0b)",
+              background: "#4f46e5", // brand-600
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -46,35 +45,38 @@ export default async function Image() {
             CW
           </div>
           <span style={{ fontSize: "40px", fontWeight: "bold", color: "white" }}>
-            Casa<span style={{ color: "#fbbf24" }}>Web</span>
+            Casa<span style={{ color: "#818cf8" }}>Web</span>
           </span>
         </div>
 
         {/* Headline */}
         <h1
           style={{
-            fontSize: "60px",
+            fontSize: "72px",
             fontWeight: "bold",
             color: "white",
             textAlign: "center",
-            lineHeight: 1.2,
+            lineHeight: 1.1,
             margin: "0 0 20px",
+            letterSpacing: "-0.02em",
           }}
         >
-          Votre présence digitale,{" "}
-          <span style={{ color: "#fbbf24" }}>notre expertise.</span>
+          Des sites qui travaillent.<br />
+          <span style={{ color: "#818cf8" }}>Pas que qui existent.</span>
         </h1>
 
         {/* Subtitle */}
         <p
           style={{
             fontSize: "24px",
-            color: "#c7d2fe",
+            color: "#94a3b8", // slate-400
             textAlign: "center",
             margin: "0 0 40px",
+            letterSpacing: "0.1em",
+            textTransform: "uppercase"
           }}
         >
-          Agence Digitale • Casablanca, Maroc 🇲🇦
+          Agence Web & Mobile — Casablanca
         </p>
 
         {/* Services pills */}
